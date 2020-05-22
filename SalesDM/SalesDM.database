@@ -1,4 +1,4 @@
-﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a9b150f0-02f8-4f65-826e-d0ea3d973572" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4d85c2a8-25b7-4003-9c22-f7ab8a395aa3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>SalesDM</ID>
   <Name>SalesDM</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -30,11 +30,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectCreatePkeyOnDimTable</Name>
-      <Value>true</Value>
+      <Value>false</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectCreateIndexes</Name>
-      <Value>true</Value>
+      <Value>false</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectRelyOnRefIntegrity</Name>
@@ -42,7 +42,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectPreserveData</Name>
-      <Value>true</Value>
+      <Value>false</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectPopulateTimeTable</Name>
@@ -83,6 +83,71 @@
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DimAttrValueColumnSuffix</Name>
       <Value>Value</Value>
+    </Annotation>
+    <Annotation>
+      <Name>CA1792B06E6B48BDAD71EFE2A95A0F02</Name>
+      <Value>
+        <Rules xmlns="CA1792B06E6B48BDAD71EFE2A95A0F02">
+          <Rule id="48" />
+          <Rule id="42" />
+          <Rule id="41" />
+          <Rule id="51" />
+          <Rule id="50" />
+          <Rule id="43" />
+          <Rule id="46" />
+          <Rule id="49" />
+          <Rule id="45" />
+          <Rule id="54" />
+          <Rule id="52" />
+          <Rule id="53" />
+          <Rule id="37" />
+          <Rule id="40" />
+          <Rule id="36" />
+          <Rule id="12" />
+          <Rule id="15" />
+          <Rule id="23" />
+          <Rule id="29" />
+          <Rule id="21" />
+          <Rule id="44" />
+          <Rule id="17" />
+          <Rule id="33" />
+          <Rule id="38" />
+          <Rule id="32" />
+          <Rule id="39" />
+          <Rule id="20" />
+          <Rule id="31" />
+          <Rule id="18" />
+          <Rule id="13" />
+          <Rule id="22" />
+          <Rule id="35" />
+          <Rule id="24" />
+          <Rule id="26" />
+          <Rule id="19" />
+          <Rule id="58" />
+          <Rule id="14" />
+          <Rule id="11" />
+          <Rule id="27" />
+          <Rule id="25" />
+          <Rule id="28" />
+          <Rule id="34" />
+          <Rule id="16" />
+          <Rule id="0" />
+          <Rule id="8" />
+          <Rule id="56" />
+          <Rule id="57" />
+          <Rule id="6" />
+          <Rule id="55" />
+          <Rule id="2" />
+          <Rule id="9" />
+          <Rule id="47" />
+          <Rule id="10" />
+          <Rule id="1" />
+          <Rule id="5" />
+          <Rule id="4" />
+          <Rule id="3" />
+          <Rule id="30" />
+        </Rules>
+      </Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
